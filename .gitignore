@@ -1,2 +1,8 @@
-.idea/
-node_modules/
+.DS_Store
+__MACOSX/
+.git/*
+.idea/*
+/node_modules/*
+/build/*
+/preview/*
+/src/.tmp/*
