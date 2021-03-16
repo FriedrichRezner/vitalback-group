@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="@@autopath/assets/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="@@autopath/node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="@@autopath/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
 </head>
 
@@ -22,12 +23,14 @@
             "fixEffect": "slide"
         }'>
     <div class="header-section">
-        <div class="container pt-2 pb-1 pl-0">
-            <div class="nav nav-sm nav-y-0 d-none d-lg-flex align-items-end">
-                <a class="nav-link" href="#">Vitalback Group</a>
-                <a class="nav-link active" href="#">Vitalback Bäckereitechnik</a>
-                <a class="nav-link" href="#">Vitalback Elektrotechnik</a>
-                <a class="nav-link" href="#">Vitalback Medizintechnik</a>
+        <div class="header-top-links">
+            <div class="container pt-2 pb-1 pl-0">
+                <div class="nav nav-sm nav-y-0 d-none d-lg-flex align-items-end">
+                    <a class="nav-link" href="#">Vitalback Group</a>
+                    <a class="nav-link active" href="#">Vitalback Bäckereitechnik</a>
+                    <a class="nav-link" href="#">Vitalback Elektrotechnik</a>
+                    <a class="nav-link" href="#">Vitalback Medizintechnik</a>
+                </div>
             </div>
         </div>
 
@@ -57,12 +60,14 @@
                     <div class="navbar-body header-abs-top-inner">
                         <ul class="js-scroll-nav navbar-nav">
                             <li class="navbar-nav-item dropdown d-lg-none">
-                                <a class="nav-link dropdown-toggle cursor-pointer" data-toggle="dropdown">Vitalback Bäckereitechnik</a>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">Vitalback
+                                    Bäckereitechnik</a>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a class="dropdown-item">Vitalback Group</a>
-                                    <a class="dropdown-item active">Vitalback Bäckereitechnik</a>
-                                    <a class="dropdown-item">Vitalback Elektrotechnik</a>
-                                    <a class="dropdown-item">Vitalback Medizintechnik</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Vitalback Group</a>
+                                    <a class="dropdown-item active" href="javascript:void(0)">Vitalback
+                                        Bäckereitechnik</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Vitalback Elektrotechnik</a>
+                                    <a class="dropdown-item" href="javascript:void(0)">Vitalback Medizintechnik</a>
                                 </div>
                             </li>
                             <li class="navbar-nav-item">
@@ -76,28 +81,65 @@
     </div>
 </header>
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<main>
 
-<div id="homeSection">
-    ehat what what
-</div>
+    <section class="position-relative bg-img-hero" style="background-image: url(@@autopath/assets/img/hero.jpg);">
+        <div class="d-none"><img src="@@autopath/assets/img/hero.jpg"/></div>
+        <div class="container space-3 space-top-xl-5 space-bottom-xl-4">
+            <div class="space-xl-1 w-lg-60">
+                <div class="mb-3">
+                    <a class="js-fancybox video-player video-player-btn" href="javascript:void(0);"
+                       data-hs-fancybox-options="{
+                     &quot;src&quot;: &quot;//youtube.com/c8rDHL7v4W4&quot;,
+                     &quot;buttons&quot;: [&quot;fullScreen&quot;, &quot;close&quot;],
+                     &quot;vimeo&quot;: {
+                       &quot;autoplay&quot;: 1
+                     }
+                   }">
+                    <span class="video-player-icon">
+                        <i class="fas fa-play"></i>
+                    </span>
+                    </a>
+                </div>
 
-<script src="@@autopath/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="@@autopath/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
-<script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                <h1 class="text-white">Ihr Ansprechpartner für Bäckereimaschinen</h1>
+                <p class="font-size-2 text-white">Unsere langjährige Erfahrung zeichnet uns als Serviceunternehmen für
+                    eine kompetente und
+                    gründliche Beratung aus.</p>
+            </div>
+        </div>
 
-<script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-<script src="@@autopath/assets/vendor/hs-scroll-nav/dist/hs-scroll-nav.min.js"></script>
-<script src="@@autopath/node_modules/aos/dist/aos.js"></script>
+        <figure class="position-absolute bottom-0 right-0 left-0">
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1921 150">
+                <polygon fill="#fff" points="0,150 1921,150 1921,0 "/>
+            </svg>
+        </figure>
+    </section>
 
-<script src="@@autopath/assets/js/hs.core.js"></script>
-<script src="@@autopath/assets/js/custom.js"></script>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-<script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="@@autopath/node_modules/babel-polyfill/dist/polyfill.js"><\/script>');
-</script>
+    <div id="homeSection">
+        ehat what what
+    </div>
+
+    <script src="@@autopath/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="@@autopath/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+    <script src="@@autopath/assets/vendor/hs-scroll-nav/dist/hs-scroll-nav.min.js"></script>
+    <script src="@@autopath/node_modules/aos/dist/aos.js"></script>
+    <script src="@@autopath/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+    <script src="@@autopath/assets/js/hs.core.js"></script>
+    <script src="@@autopath/assets/js/hs.fancybox.js"></script>
+    <script src="@@autopath/assets/js/custom.js"></script>
+
+    <script>
+        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="@@autopath/node_modules/babel-polyfill/dist/polyfill.js"><\/script>');
+    </script>
 </body>
 </html>

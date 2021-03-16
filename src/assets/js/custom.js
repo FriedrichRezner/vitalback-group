@@ -28,3 +28,10 @@ AOS.init({
 });
 
 /* Scroll Nav End */
+
+/* Fancybox */
+
+$('.js-fancybox').each(function () {
+    var fancybox = $.HSCore.components.HSFancyBox.init($(this));
+});
+
