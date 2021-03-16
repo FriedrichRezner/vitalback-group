@@ -24151,6 +24151,11 @@ a:hover .text-hover-primary {
   }
 }
 
+/* Helper */
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /* Navbar */
 .navbar-brand,
 .navbar-brand > img {
