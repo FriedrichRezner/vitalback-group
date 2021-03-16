@@ -1,3 +1,19 @@
-/*------------------------------------
-  File for your custom SCSS style
-------------------------------------*/
+/* Navbar */
+
+.navbar-brand, .navbar-brand > img {
+  width: 16rem;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-expand-lg .navbar-brand, .navbar-expand-lg .navbar-brand > img {
+    width: 13rem;
+  }
+  .navbar-expand-lg.navbar {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
+}
+
+.js-header-fix-moment.scrolled:not(.header-moved-up) {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
