@@ -30,7 +30,7 @@
 }
 .bg-img-hero:after, .bg-img-hero-center:after, .bg-img-hero-bottom:after {
   content: ' ';
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -43,4 +43,7 @@
 }
 .bg-img-hero figure, .bg-img-hero-center figure, .bg-img-hero-bottom figure {
   z-index: 1;
+}
+.video-player-btn:not(:hover) .media-body {
+  color: #ffffff;
 }
