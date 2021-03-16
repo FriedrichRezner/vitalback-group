@@ -4,5 +4,6 @@ __MACOSX/
 .idea/*
 /node_modules/*
 /build/*
+/dist/*
 /preview/*
 /src/.tmp/*
