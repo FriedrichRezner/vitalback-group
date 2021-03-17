@@ -24151,6 +24151,16 @@ a:hover .text-hover-primary {
   }
 }
 
+/* General */
+a:hover h2, a:hover h3, a:hover h4, a:hover p {
+  color: #a53e13;
+}
+
+/* Helper */
+.text-no-hover-dark:not(:hover) {
+  color: #000000;
+}
+
 /* Navbar */
 .navbar-brand,
 .navbar-brand > img {

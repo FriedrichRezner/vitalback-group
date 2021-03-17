@@ -1,3 +1,13 @@
+/* General */
+a:hover h2, a:hover h3, a:hover h4, a:hover p {
+  color: $link-hover-color;
+}
+
+/* Helper */
+.text-no-hover-dark:not(:hover) {
+  color: #000000;
+}
+
 /* Navbar */
 
 .navbar-brand, .navbar-brand > img {
