@@ -15,7 +15,7 @@ module.exports = {
   // Start path when launching gulp
   //
 
-  startPath: "/prototypes/index.html",
+  startPath: "/index.html",
 
 
   //
