@@ -3,13 +3,17 @@ a:hover h2, a:hover h3, a:hover h4, a:hover p {
   color: $primary;
 }
 
-.max-w-md-12rem {
-  max-width: 12rem;
+.font-size-2 {
+  font-size: 1.3rem;
 }
 
 /* Helper */
 .text-no-hover-dark:not(:hover) {
   color: #000000;
+}
+
+.max-w-md-12rem {
+  max-width: 12rem;
 }
 
 /* Navbar */
