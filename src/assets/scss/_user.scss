@@ -1,6 +1,6 @@
 /* General */
 a:hover h2, a:hover h3, a:hover h4, a:hover p {
-  color: $link-hover-color;
+  color: $primary;
 }
 
 /* Helper */
@@ -56,4 +56,10 @@ a:hover h2, a:hover h3, a:hover h4, a:hover p {
 }
 .video-player-btn:not(:hover) .media-body {
   color: #ffffff;
+}
+
+/* Footer */
+
+.brand {
+  max-width: 20rem;
 }

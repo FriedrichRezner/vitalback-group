@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="@@autopath/assets/vendor/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="@@autopath/node_modules/aos/dist/aos.css">
     <link rel="stylesheet" href="@@autopath/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="@@autopath/node_modules/leaflet/dist/leaflet.css">
     <link rel="stylesheet" href="@@autopath/assets/css/theme.css">
 </head>
 
@@ -27,7 +28,8 @@
             <div class="container pt-2 pb-1 pl-0">
                 <div class="nav nav-sm nav-y-0 align-items-end">
                     <a class="nav-link" href="../dist-group/group.html">Vitalback Group</a>
-                    <a class="nav-link active" href="../dist-baeckereitechnik/baeckereitechnik.html">Vitalback Bäckereitechnik</a>
+                    <a class="nav-link active" href="../dist-baeckereitechnik/baeckereitechnik.html">Vitalback
+                        Bäckereitechnik</a>
                     <a class="nav-link" href="../dist-elektrotechnik/elektrotechnik.html">Vitalback Elektrotechnik</a>
                     <a class="nav-link" href="../dist-medizintechnik/medizintechnik.html">Vitalback Medizintechnik</a>
                 </div>
@@ -64,10 +66,13 @@
                                     Bäckereitechnik</a>
                                 <div class="dropdown-menu dropdown-menu-right">
                                     <a class="dropdown-item" href="../dist-group/group.html">Vitalback Group</a>
-                                    <a class="dropdown-item active" href="../dist-baeckereitechnik/baeckereitechnik.html">Vitalback
+                                    <a class="dropdown-item active"
+                                       href="../dist-baeckereitechnik/baeckereitechnik.html">Vitalback
                                         Bäckereitechnik</a>
-                                    <a class="dropdown-item" href="../dist-elektrotechnik/elektrotechnik.html">Vitalback Elektrotechnik</a>
-                                    <a class="dropdown-item" href="../dist-medizintechnik/medizintechnik.html">Vitalback Medizintechnik</a>
+                                    <a class="dropdown-item" href="../dist-elektrotechnik/elektrotechnik.html">Vitalback
+                                        Elektrotechnik</a>
+                                    <a class="dropdown-item" href="../dist-medizintechnik/medizintechnik.html">Vitalback
+                                        Medizintechnik</a>
                                 </div>
                             </li>
                             <li class="navbar-nav-item">
@@ -75,6 +80,9 @@
                             </li>
                             <li class="navbar-nav-item">
                                 <a class="nav-link" href="#aktuelles">Aktuelles</a>
+                            </li>
+                            <li class="navbar-nav-item">
+                                <a class="nav-link" href="#kontakt">Kontakt</a>
                             </li>
                         </ul>
                     </div>
@@ -85,7 +93,6 @@
 </header>
 
 <main>
-
     <section id="home" class="position-relative bg-img-hero"
              style="background-image: url(@@autopath/assets/img/hero.jpg);">
         <div class="d-none"><img src="@@autopath/assets/img/hero.jpg"/></div>
@@ -166,30 +173,173 @@
         </div>
     </section>
 
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <section id="kontakt">
+        <div class="container space-top-2 space-bottom-1">
+            <h2 class="h2 space-bottom-1 text-center">Kontaktieren Sie uns</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-9 mb-lg-0">
+                    <div id="map" class="min-h-300rem mb-5" data-hs-leaflet-options='{
+                        "map": {
+                            "scrollWheelZoom": false,
+                            "coords": [51.352224, 6.534458]
+                        },
+                        "marker": [
+                            {
+                                "coords": [51.352224, 6.534458],
+                                "icon": {
+                                    "iconUrl": "../assets/img/map-pin-baeckereitechnik.svg",
+                                    "iconSize": [50, 45]
+                            },
+                            "popup": {
+                                "text": "Vitalback Bäckereitechnik"
+                            }
+                        }
+                     ]
+                    }'></div>
 
-    <div id="homeSection">
-        ehat what what
-    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="mb-3">
+                                <span class="d-block h5 mb-1">Rufen Sie uns an:</span>
+                                <span class="d-block font-size-1">02151 97178-0</span>
+                            </div>
 
-    <script src="@@autopath/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="@@autopath/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
-    <script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                            <div class="mb-3">
+                                <span class="d-block h5 mb-1">Schreiben Sie uns:</span>
+                                <span class="d-block font-size-1">info@vitalback-service.de</span>
+                            </div>
+                        </div>
 
-    <script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
-    <script src="@@autopath/assets/vendor/hs-scroll-nav/dist/hs-scroll-nav.min.js"></script>
-    <script src="@@autopath/node_modules/aos/dist/aos.js"></script>
-    <script src="@@autopath/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+                        <div class="col-sm-6">
+                            <div class="mb-3">
+                                <span class="d-block h5 mb-1">Besuchen Sie uns:</span>
+                                <span class="d-block font-size-1">Pestalozzistr. 51, 47803 Krefeld</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <script src="@@autopath/assets/js/hs.core.js"></script>
-    <script src="@@autopath/assets/js/hs.fancybox.js"></script>
-    <script src="@@autopath/assets/js/custom.js"></script>
+                <div class="col-lg-6">
+                    <div class="ml-lg-5">
+                        <form class="card shadow-lg mb-4">
+                            <div class="card-body p-4 p-md-6">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="firstNameExample1" class="input-label">Vorname</label>
+                                            <input type="text" class="form-control" name="firstNameExample1" id="firstNameExample1" placeholder="Max">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="js-form-message form-group">
+                                            <label for="lastNameExample1" class="input-label">Nachname</label>
+                                            <input type="text" class="form-control" name="lastNameExample1" id="lastNameExample1" placeholder="Mustermann">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="emailAddressExample1" class="input-label">Kontaktmöglichkeit (E-Mail / Telefon)</label>
+                                            <input type="email" class="form-control" name="emailAddressExample1" id="emailAddressExample1" placeholder="max.mustermann@gmail.com / 01234 56789">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="message" class="input-label">Nachricht</label>
+                                            <div class="input-group">
+                                                <textarea class="form-control" rows="4" name="message" id="message" placeholder="Hallo, ich bräuchte Hilfe bei ..."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-    <script>
-        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="@@autopath/node_modules/babel-polyfill/dist/polyfill.js"><\/script>');
-    </script>
+                                <button type="submit" class="btn btn-block btn-primary transition-3d-hover">Absenden</button>
+                            </div>
+                        </form>
+
+                        <div class="text-center">
+                            <p class="small">Wir melden uns schnellstmöglich bei Ihnen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="container">
+        <div class="border-top space-2">
+            <div class="row justify-content-md-between">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a class="d-inline-flex mb-4" href="#">
+                        <img class="brand" src="@@autopath/assets/img/logos/vitalback-baeckereitechnik.png" alt="Logo">
+                    </a>
+                    <p>Ihr Ansprechpartner für Bäckereimaschinen.</p>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-3 mb-4 mb-lg-0">
+                    <h5>Vitalback Group</h5>
+
+                    <ul class="nav nav-sm nav-x-0 flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../dist-group/group.html">Vitalback Group</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../dist-baeckereitechnik/baeckereitechnik.html">
+                                Vitalback Bäckereitechnik
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../dist-elektrotechnik/elektrotechnik.html">
+                                Vitalback Elektrotechnik
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../dist-medizintechnik/medizintechnik.html">
+                                Vitalback Medizintechnik
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2 mb-4 mb-lg-0">
+                    <h5>Sitemap</h5>
+
+                    <ul class="nav nav-sm nav-x-0 flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#aktuelles">Aktuelles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <h5>Rechtliches</h5>
+                    <ul class="nav nav-sm nav-x-0 flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#">Impressum</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Datenschutzerklärung</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</footer>
+
+<script src="@@autopath/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="@@autopath/node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
+<script src="@@autopath/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="@@autopath/assets/vendor/hs-header/dist/hs-header.min.js"></script>
+<script src="@@autopath/assets/vendor/hs-scroll-nav/dist/hs-scroll-nav.min.js"></script>
+<script src="@@autopath/node_modules/aos/dist/aos.js"></script>
+<script src="@@autopath/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+<script src="@@autopath/node_modules/leaflet/dist/leaflet.js"></script>
+
+<script src="@@autopath/assets/js/hs.core.js"></script>
+<script src="@@autopath/assets/js/hs.fancybox.js"></script>
+<script src="@@autopath/assets/js/hs.leaflet.js"></script>
+<script src="@@autopath/assets/js/hs.fancybox.js"></script>
+<script src="@@autopath/assets/js/custom.js"></script>
+
+<script>
+    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="@@autopath/node_modules/babel-polyfill/dist/polyfill.js"><\/script>');
+</script>
 </body>
 </html>
