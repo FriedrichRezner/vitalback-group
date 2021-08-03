@@ -1,4 +1,8 @@
 /* General */
+.text-dark {
+  color: #444444 !important;
+}
+
 a:hover h2, a:hover h3, a:hover h4, a:hover p {
   color: $primary;
 }
@@ -7,9 +11,30 @@ a:hover h2, a:hover h3, a:hover h4, a:hover p {
   font-size: 1.3rem;
 }
 
+p {
+  line-height: 1.4;
+}
+
+h1, .h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 3.9rem;
+  color: #333333;
+}
+h2, .h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #333333;
+}
+h3, .h3 {
+  font-weight: 700;
+  color: #333333;
+}
+
 /* Helper */
 .text-no-hover-dark:not(:hover) {
-  color: #000000;
+  color: #333333;
 }
 
 .max-w-md-12rem {
