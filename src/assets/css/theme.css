@@ -1,10 +1,8 @@
 @charset "UTF-8";
 /* Baeckereitechnik */
 /* Medizintechnik
-$blue: #019ad9;
 $primary: $blue; */
 /* Elektrotechnik
-$yellow: #fcc300;
 $primary: $yellow; */
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -13,14 +11,14 @@ $primary: $yellow; */
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #377dff;
+  --blue: #019ad9;
   --indigo: #2d1582;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #ed4c78;
   --orange: #e55920;
   --yellow: #f5ca99;
-  --green: #28a745;
+  --green: #96c300;
   --teal: #00c9a7;
   --cyan: #09a5be;
   --white: #fff;
@@ -24226,6 +24224,31 @@ h3, .h3 {
 
 .header-top-links {
   background-color: #f5f5f5;
+}
+
+.header-top-links img {
+  height: 1.3rem;
+}
+
+.header-top-links .nav-link:not(:hover):not(.active) img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.nav:not(.nav-pills) .nav-item.active .nav-link.vitalback-elektrotechnik, .nav:not(.nav-pills) .nav-link.vitalback-elektrotechnik.active, .nav .nav-link.vitalback-elektrotechnik:not(.active):hover {
+  color: #96c300;
+}
+
+.nav:not(.nav-pills) .nav-item.active .nav-link.vitalback-baeckereitechnik, .nav:not(.nav-pills) .nav-link.vitalback-baeckereitechnik.active, .nav .nav-link.vitalback-baeckereitechnik:not(.active):hover {
+  color: #e55920;
+}
+
+.nav:not(.nav-pills) .nav-item.active .nav-link.vitalback-medizintechnik, .nav:not(.nav-pills) .nav-link.vitalback-medizintechnik.active, .nav .nav-link.vitalback-medizintechnik:not(.active):hover {
+  color: #019ad9;
+}
+
+.nav:not(.nav-pills) .nav-item.active .nav-link.vitalback-group, .nav:not(.nav-pills) .nav-link.vitalback-group.active, .nav .nav-link.vitalback-group:not(.active):hover {
+  color: #000000;
 }
 
 /* Hero */
