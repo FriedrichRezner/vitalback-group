@@ -35,6 +35,12 @@ $('.js-fancybox').each(function () {
     var fancybox = $.HSCore.components.HSFancyBox.init($(this));
 });
 
+/* Slick carousel */
+
+$('.js-slick-carousel').each(function() {
+    var slickCarousel = $.HSCore.components.HSSlickCarousel.init($(this));
+});
+
 /* Contact Map */
 
 $('#map').each(function () {
