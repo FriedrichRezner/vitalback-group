@@ -1,3 +1,7 @@
+/* Header */
+
+var header = new HSHeader($('#header')).init();
+
 /* Fancybox */
 
 $('.js-fancybox').each(function () {
