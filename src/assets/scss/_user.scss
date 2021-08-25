@@ -85,6 +85,10 @@ h3, .h3, h4, .h4 {
   color: #000000;
 }
 
+main {
+  margin-top: 112px;
+}
+
 /* Hero */
 
 .bg-img-hero .container, .bg-img-hero-center .container, .bg-img-hero-bottom .container {
@@ -109,6 +113,16 @@ h3, .h3, h4, .h4 {
 }
 .video-player-btn:not(:hover) .media-body {
   color: #ffffff;
+}
+
+/* Cards */
+
+a .card:hover .btn-ghost-primary, a .card:focus .btn-ghost-primary, a .card:active .btn-ghost-primary {
+  color: $primary;
+  background-color: rgba($primary, .1);
+}
+a:hover h2, a:hover .h2, a:hover h3, a:hover .h3, a:hover h4, a:hover .h4 {
+  color: #333333;
 }
 
 /* Footer */
